@@ -265,7 +265,7 @@ form.formulario-registro{
 
 .contenedor.modo-entrar .panel-derecho .contenido,
 .contenedor.modo-entrar .panel-derecho .imagen-acceso{
-    transform: translateX(0px);
+    transform: translateX(0);
 }
 
 
@@ -434,7 +434,7 @@ form.formulario-registro{
     }
 
     .contenedor.modo-entrar .entrar-registro-sistema{
-        left: 12%;
+        left: 10%;
     }
 }
 /*======================================*/
