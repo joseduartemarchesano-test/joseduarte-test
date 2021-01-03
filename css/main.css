@@ -394,19 +394,6 @@ form.formulario-registro{
 }
 
 @media (max-width: 570px){
-
-    .contenedor::before{
-        
-        /*width: 2000px;
-        height: 2000px;
-        left: 10%;
-        bottom: 58%;
-        transform: translateX(-50%);
-        right: initial;
-        top: initial;
-        transition: 2s ease-in-out;*/
-    }
-
     form{
         padding: 0 1.5rem;
     }
@@ -434,7 +421,7 @@ form.formulario-registro{
     }
 
     .contenedor.modo-entrar .entrar-registro-sistema{
-        left: 10%;
+        left: 14%;
     }
 }
 /*======================================*/
