@@ -249,19 +249,23 @@ form.formulario-registro{
 /*======================================*/
 /*======================================*/
 /*======================================*/
+
+/*BOLA SE MUEVE A LA DERECHA*/
 .contenedor.modo-entrar::before{
     transform: translate(100%, -50%);
     right: 52%;
 }
 
+/*IMAGEN SE VA A LA IZQUIERDA*/
 .contenedor.modo-entrar .panel-izquierdo .imagen-acceso,
 .contenedor.modo-entrar .panel-izquierdo .contenido{
     transform: translateX(-800px);
 }
 
+
 .contenedor.modo-entrar .panel-derecho .contenido,
 .contenedor.modo-entrar .panel-derecho .imagen-acceso{
-    transform: translateX(0);
+    transform: translateX(0px);
 }
 
 
@@ -385,11 +389,24 @@ form.formulario-registro{
     .contenedor.modo-entrar .entrar-registro-sistema{
         top: 5%;
         transform: translate(-50px, 0);
-        left: 50%;
+        left: 6%;
     }
 }
 
 @media (max-width: 570px){
+
+    .contenedor::before{
+        
+        /*width: 2000px;
+        height: 2000px;
+        left: 10%;
+        bottom: 58%;
+        transform: translateX(-50%);
+        right: initial;
+        top: initial;
+        transition: 2s ease-in-out;*/
+    }
+
     form{
         padding: 0 1.5rem;
     }
@@ -402,6 +419,10 @@ form.formulario-registro{
         padding: 0.5rem 1rem;
     }
 
+    .panel .contenido p{
+        font-size: 1rem;
+    }
+
     .contenedor::before{
         bottom: 72%;
         left: 50%;
@@ -410,6 +431,10 @@ form.formulario-registro{
     .contenedor.modo-entrar::before{
         bottom: 28%;
         left: 50%;
+    }
+
+    .contenedor.modo-entrar .entrar-registro-sistema{
+        left: 15%;
     }
 }
 /*======================================*/
